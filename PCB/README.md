@@ -21,7 +21,7 @@ TRRSジャック
 TRRSジャックは左右通信に使います。両側のPro Microの  
 1.GND  
 2.VCC  
-3.PD2（余る２ポートのうちひとつ、左右で同じ番号のものであればこちらも変えてよい）  
+3.PD1（余る２ポートのうちひとつ、左右で同じ番号のものであればこちらも変えてよい）  
 どうしをTRRSケーブルを通して繋ぎます。TRRSジャックの穴のうち一つ（一番外側のやつ）は使いません。 
   
 ・Pro Microのピン配置：https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf  
