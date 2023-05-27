@@ -1,4 +1,4 @@
-## 取り付ける部品（個数は左右それぞれ）
+# 取り付ける部品（個数は左右それぞれ）
 
 キースイッチ * 16  
 ・イメージ：https://nuphy.com/collections/switches/products/nuphy-daisy-l48-switches  
@@ -11,7 +11,8 @@ TRRSジャック * 1
 ・イメージ：https://ja.aliexpress.com/item/33029465106.html?spm=a2g0o.productlist.main.1.6718343e2hWHWy&algo_pvid=6fda5ebd-945e-46c2-ba71-f376dea32626&algo_exp_id=6fda5ebd-945e-46c2-ba71-f376dea32626-0&pdp_npi=3%40dis%21JPY%21115.0%21110.0%21%21%21%21%21%40212244c416851935148066302d073c%2167273462020%21sea%21JP%210&curPageLogUid=elfdcCsY8ndP  
   
   
-## 回路
+  
+# 回路
 
 ![Untitled1555_20230528045322](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/5a9e19e6-e618-4dfa-b4fa-3ec3d8560fc1)
 ![Untitled1556_20230528045659](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/e5dc37f2-2ace-46e6-8394-7f824f31be7e)  
@@ -26,9 +27,10 @@ TRRSジャックは左右通信に使います。両側のPro Microの
   
 ・Pro Microのピン配置：https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf  
 ・左右通信規格の参考：https://docs.qmk.fm/#/feature_split_keyboard?id=split-keyboard  
-
-
-## その他
+  
+  
+  
+# その他
 
 ・親指の２キーは組み立て時にハンダゴテが入らなさそうなので、独立のPCBは作らず、直付けした導線をPCB下側の４穴に引っ張ってくることにしました。
 ・キースイッチとTRRSジャックの足およびPro Microのピンが左右対称ではないので、左右別で作ってほしいです。  
@@ -40,3 +42,4 @@ TRRSジャックは左右通信に使います。両側のPro Microの
 2. 裏からキースイッチを嵌めたボディに入れ込んで、スイッチの足とはんだ付け
 3. ピンヘッダーにPro Microを裏向きではんだ付け
 を想定しています。
+・外形は変えられるところと変えられないところがあります。調整したいところがあったら教えてください。
