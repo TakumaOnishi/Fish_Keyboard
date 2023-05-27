@@ -13,13 +13,15 @@ TRRSジャック
   
 ## 回路
 
+![Untitled1555_20230528045322](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/5a9e19e6-e618-4dfa-b4fa-3ec3d8560fc1)  
+![Untitled1556_20230528045659](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/e5dc37f2-2ace-46e6-8394-7f824f31be7e)  
 16個のキースイッチにはそれぞれ、指向性のない２本の足があります。片方はすべてGNDに繋ぎ、もう片方はPro Microの18個のポートのうち固有の16個に繋ぎます。
 どれをどれに繋げるかはファームウェア上で指定を書き換えられるので、配線の都合で変えてもいいです。左右違ってもいいです。  
-  
+
 TRRSジャックは左右通信に使います。両側のPro Microの  
 1.GND  
 2.VCC  
-3.残りの２ポートのうちひとつ（左右で同じ番号のもの）  
+3.PD2（余る２ポートのうちひとつ、左右で同じ番号のものであればこちらも変えてよい）  
 どうしをTRRSケーブルを通して繋ぎます。TRRSジャックの穴のうち一つ（一番外側のやつ）は使いません。 
   
 ・Pro Microのピン配置：https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf  
@@ -31,10 +33,10 @@ TRRSジャックは左右通信に使います。両側のPro Microの
 ・親指の２キーは組み立て時にハンダゴテが入らなさそうなので、独立のPCBは作らず、直付けした導線をPCB下側の４穴に引っ張ってくることにしました。
 ・キースイッチとTRRSジャックの足およびPro Microのピンが左右対称ではないので、左右別で作ってほしいです。  
 ・組み立て時にわかりやすいように、表と裏で色を変えるか、表に「left」「right」などと書いてほしいです。  
-<img width="948" alt="Screenshot 2023-05-28 at 03 25 27" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/a2b0a517-2ecc-4a35-ac8d-9f09f39d9623">
+<img width="948" alt="Screenshot 2023-05-28 at 03 25 27" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/a2b0a517-2ecc-4a35-ac8d-9f09f39d9623">  
 ・Z軸正の領域から見える面が組み立て時の表です。
 ・組み立ての段取りは
-1. 表側にあらかじめTRRSジャックとPro Micro用ピンヘッダーをはんだ付け
+1. PCBの表側にあらかじめTRRSジャックとPro Micro用ピンヘッダーをはんだ付け
 2. 裏からキースイッチを嵌めたボディに入れ込んで、スイッチの足とはんだ付け
-3. ピンヘッダーにPro Microをはんだ付け
+3. ピンヘッダーにPro Microを裏向きではんだ付け
 を想定しています。
