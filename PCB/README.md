@@ -13,7 +13,7 @@ TRRSジャック
   
 ## 回路
 
-![Untitled1555_20230528045322](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/5a9e19e6-e618-4dfa-b4fa-3ec3d8560fc1)  
+![Untitled1555_20230528045322](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/5a9e19e6-e618-4dfa-b4fa-3ec3d8560fc1)
 ![Untitled1556_20230528045659](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/e5dc37f2-2ace-46e6-8394-7f824f31be7e)  
 16個のキースイッチにはそれぞれ、指向性のない２本の足があります。片方はすべてGNDに繋ぎ、もう片方はPro Microの18個のポートのうち固有の16個に繋ぎます。
 どれをどれに繋げるかはファームウェア上で指定を書き換えられるので、配線の都合で変えてもいいです。左右違ってもいいです。  
