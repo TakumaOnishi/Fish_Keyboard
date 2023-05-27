@@ -1,13 +1,13 @@
-## 取り付ける部品
+## 取り付ける部品（個数は左右それぞれ）
 
-キースイッチ  
+キースイッチ * 16  
 ・イメージ：https://nuphy.com/collections/switches/products/nuphy-daisy-l48-switches  
 ・データシート：https://cdn.shopify.com/s/files/1/0268/7297/1373/files/gateron-brown-spec-sheet.pdf?v=1657696307  
   
-Pro Micro （USB-C 互換品）  
+Pro Micro * 1 （USB-C 互換品）  
 ・イメージ：https://ja.aliexpress.com/item/32888212119.html?spm=a2g0o.productlist.main.3.5997645c4fdSNw&algo_pvid=b6128d1c-3b50-46cb-a4d1-16125c1211ee&algo_exp_id=b6128d1c-3b50-46cb-a4d1-16125c1211ee-1&pdp_npi=3%40dis%21JPY%21759.0%21615.0%21%21%21%21%21%402122443916849231700893088d0790%2112000027223441066%21sea%21JP%210&curPageLogUid=WyMhR81mQnpv  
   
-TRRSジャック  
+TRRSジャック * 1  
 ・イメージ：https://ja.aliexpress.com/item/33029465106.html?spm=a2g0o.productlist.main.1.6718343e2hWHWy&algo_pvid=6fda5ebd-945e-46c2-ba71-f376dea32626&algo_exp_id=6fda5ebd-945e-46c2-ba71-f376dea32626-0&pdp_npi=3%40dis%21JPY%21115.0%21110.0%21%21%21%21%21%40212244c416851935148066302d073c%2167273462020%21sea%21JP%210&curPageLogUid=elfdcCsY8ndP  
   
   
