@@ -39,7 +39,7 @@ TRRSジャックは左右通信に使います。両側のPro Microの
 ・組み立て時にわかりやすいように、表と裏で色を変えるか、表に「left」「right」などと書いてほしいです。  
 <img width="948" alt="Screenshot 2023-05-28 at 03 25 27" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/a2b0a517-2ecc-4a35-ac8d-9f09f39d9623">  
 ・Z軸正の領域から見える面が組み立て時の表です。  
-・組み立ての段取りは
+・組み立ての段取りは  
 1.PCBの表側にあらかじめTRRSジャックとPro Micro用ピンヘッダーをはんだ付け  
 2.裏からキースイッチを嵌めたボディに入れ込んで、スイッチの足とはんだ付け  
 3.ピンヘッダーにPro Microを裏向きではんだ付け  
