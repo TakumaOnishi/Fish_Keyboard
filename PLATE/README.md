@@ -1,4 +1,4 @@
-#Z軸寸法  
+## Z軸寸法  
 ・板の厚みは2.0mm  
 <img width="707" alt="Screenshot 2023-06-05 at 16 11 21" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/3247a6ee-562e-4b12-b426-33f9524dcc12">  
 ・魚型のアウトラインは高さ0.0〜2.0mmまで単純に垂直カット  
