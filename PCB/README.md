@@ -1,48 +1,55 @@
-# PCB発注書
-## 取り付ける部品（個数は左右それぞれ）  
+## スイッチ基盤（fpc_outline）  
+キースイッチに張り巡らせるフレキシブル基盤。
   
-キースイッチ * 16  
-・イメージ：https://nuphy.com/collections/switches/products/nuphy-daisy-l48-switches  
+### 接続する部品
+#### キースイッチ * 16  
+・製品：https://nuphy.com/collections/switches/products/nuphy-daisy-l48-switches  
 ・データシート：https://cdn.shopify.com/s/files/1/0268/7297/1373/files/gateron-brown-spec-sheet.pdf?v=1657696307  
   
-Pro Micro * 1 （USB-C 互換品）  
-・イメージ：https://ja.aliexpress.com/item/32888212119.html?spm=a2g0o.productlist.main.3.5997645c4fdSNw&algo_pvid=b6128d1c-3b50-46cb-a4d1-16125c1211ee&algo_exp_id=b6128d1c-3b50-46cb-a4d1-16125c1211ee-1&pdp_npi=3%40dis%21JPY%21759.0%21615.0%21%21%21%21%21%402122443916849231700893088d0790%2112000027223441066%21sea%21JP%210&curPageLogUid=WyMhR81mQnpv  
+#### FPCコネクター  
+・製品例：https://www.hirose.com/product/series/FH12  
+・上記から0.5mmピッチ下接点標準タイプの17極を想定し、挿入部分の幅は9mmとした（カタログp13を参照）。
   
-TRRSジャック * 1  
-・イメージ・データシート：https://ja.aliexpress.com/item/33029465106.html?spm=a2g0o.productlist.main.1.6718343e2hWHWy&algo_pvid=6fda5ebd-945e-46c2-ba71-f376dea32626&algo_exp_id=6fda5ebd-945e-46c2-ba71-f376dea32626-0&pdp_npi=3%40dis%21JPY%21115.0%21110.0%21%21%21%21%21%40212244c416851935148066302d073c%2167273462020%21sea%21JP%210&curPageLogUid=elfdcCsY8ndP  
+### 回路  
+それぞれのキースイッチの２本の足（指向性は無い）のうち、片方はすべてGNDに繋ぎ、もう片方は固有の16ポートに繋ぐ。ダイオードは不要。  
+どれをどのポートに繋げるかは配線の都合で決めてOK（ファームウェアで指定を書き換えられる）。  
   
-  
-  
-## 回路
-  
-![Untitled1555_20230528045322](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/5a9e19e6-e618-4dfa-b4fa-3ec3d8560fc1)
-![Untitled1556_20230528045659](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/e5dc37f2-2ace-46e6-8394-7f824f31be7e)  
-16個のキースイッチにはそれぞれ、指向性のない２本の足があります。片方はすべてGNDに繋ぎ、もう片方はPro Microの18個のポートのうち固有の16個に繋ぎます。  
-どれをどれに繋げるかはファームウェア上で指定を書き換えられるので、配線の都合で変えてもいいです。左右違ってもいいです。  
+### 備考  
+・キースイッチのフットプリントを反転して重ね、左右リバーシヴルにした。マイコン基盤への接続部分が裏表対称にできれば、左右で同一の基盤を裏返して使える。  
+・キースイッチのピンの穴は角丸長方形ではなくその外接円でもいいが、上がキツキツになる部分がありそう。  
 
-TRRSジャックは左右通信に使います。両側のPro Microの  
-1.GND  
-2.VCC  
-3.PD1（余る２ポートのうちひとつ、左右で同じ番号のものであればこちらも変えてよい）  
-どうしをTRRSケーブルを通して繋ぎます。TRRSジャックの穴もひとつ余ります（３極のプラグでも動くようにしたいが、一番外側の穴を捨てればいいか？）。 
+
+## マイコン基盤（pcb_outline）  
+BLE Micro Pro（以下BMP）のクローン基盤。  
   
-・Pro Microのピン配置：https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf  
-・左右シリアル通信のファームウェア仕様書：https://docs.qmk.fm/#/feature_split_keyboard?id=split-keyboard  
+### 実装する部品  
+#### FPCコネクター  
+・スイッチ基盤から入力を取る。  
+・製品例（前述の通り）：https://www.hirose.com/product/series/FH12 0.5mmピッチの17極  
+・場所はずらせない。  
+
+#### PHコネクター（２芯・横向き）
+・バッテリー（https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4YZL ）から電源を取る。  
+・製品例：https://nuphy.com/collections/switches/products/nuphy-daisy-l48-switches  
+・スルーホール実装が望ましい。場所はずらせるかも。  
+
+#### USB-Cコネクター  
+・充電、ファームウェア書き換え、有線使用時にPCと繋ぐ。  
+・製品例：https://www.jae.com/connector-special/dx07_usb_type-c/  
+・オンボードの24芯を想定（よくわかってない）。こちらもスルーホール実装が望ましい。  
+・場所は上下にはずらせない。基盤の外に1.0〜1.7mm飛び出していて欲しい。  
+・基盤の右端から1.7mmの壁があってピッタリ奥まで挿さるとベストだが、とりあえず奥まで挿さればOK。  
+
+#### その他（BL654など必要な部品）  
+・BMPをまるパクりする。  
+・インジケータLED（赤色）をつけたい！：https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/design_guide?id=%e3%82%a4%e3%83%b3%e3%82%b8%e3%82%b1%e3%83%bc%e3%82%bfled  
   
+### 回路  
+・BMPの回路図：https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/schematic.pdf  
   
-  
-## その他
-  
-・親指の２キーは組み立て時にハンダゴテが入らなさそうなので、独立のPCBは作らず、直付けした導線をPCB下側の４穴に引っ張ってくることにしました。  
-・Pro Microはスルーホールでいいかなと思いました。裏側に出たピンの足って切れますよね？せっかく付属のピンヘッダーがあるので使えるなら使いたい。  
-・穴の寸法は内径です。キースイッチの真ん中の丸い穴と、TRRSの真ん中の丸い穴２つは内側に金属いらないです。  
-・キースイッチとTRRSジャックの足およびPro Microのピンが左右対称ではないので、左右別で作ってほしいです。  
-・組み立て時にわかりやすいように、表と裏で色を変えるか、表に「left」「right」などと書いてほしいです。  
-<img width="948" alt="Screenshot 2023-05-28 at 03 25 27" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/a2b0a517-2ecc-4a35-ac8d-9f09f39d9623">  
-・DXFで見えている面は組み立て時の表側（キーボードとして見た時の裏側）の面です。  
-・組み立ての段取りは  
-1.PCBの表側にあらかじめTRRSジャックとPro Micro用ピンヘッダーをはんだ付け  
-2.裏からキースイッチを嵌めたボディに入れ込んで、スイッチの足とはんだ付け  
-3.ピンヘッダーにPro Microを裏向きではんだ付け  
-を想定しています。  
-・穴の位置は変えられません。輪郭は変えられるところと変えられないところがあります。調整したいところがあったら教えてください。  
+### 備考  
+・左右対称で２通り必要。。。  
+・組み立て時は裏返して（表面実装パーツがキースイッチ側を向くように）おさかなの頭にセットする。裏面には突起NG。  
+・曲線部分のフチから1.3mmは突起NG（ボディに置く部分なので）。  
+・表面実装パーツの高さは3mm以下ぐらいならOK（PHコネクターはあの位置なら入る）。  
+
