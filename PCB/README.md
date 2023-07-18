@@ -1,5 +1,6 @@
 ## スイッチ基盤（fpc_outline）  
 <img width="1064" alt="Screenshot 2023-07-19 at 04 13 05" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/06ba4717-f23c-4bbc-87ff-400a51bc2822">  
+  
 キースイッチに張り巡らせるフレキシブル基盤。
   
 ### 接続する部品
@@ -22,6 +23,7 @@
 
 ## マイコン基盤（pcb_outline）  
 <img width="906" alt="Screenshot 2023-07-19 at 04 13 39" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/dec1fa28-36c4-4ab4-bcf6-cce86486c8ba">  
+  
 BLE Micro Pro（以下BMP）のクローン基盤。  
   
 ### 実装する部品  
