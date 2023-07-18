@@ -48,7 +48,7 @@ BLE Micro Pro（以下BMP）のクローン基盤。
   
 ### 回路  
 ・BMPの回路図：https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/schematic.pdf  
-・これに加えて、USBからバッテリーを充電する（満タンになったらやめる）回路が欲しい。  
+・これに加えて、USBからバッテリーを充電する（満タンになったらやめる）回路をお願いします！！  
   
 ### 備考  
 ・左右対称で２通り必要。。。  
