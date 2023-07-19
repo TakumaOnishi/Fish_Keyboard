@@ -56,7 +56,7 @@ BLE Micro Pro（以下BMP）のクローン基盤。1.6mm厚を想定。
 ・左右対称で２通り必要…。  
 ・組み立て時は裏返して（表面実装パーツがキースイッチ側を向くように）おさかなの頭にセットする。裏面には突起NG。  
 ・曲線部分のフチから1.3mmは突起NG（ボディに置く部分なので）。  
-・表面実装パーツの高さは3mm以下ぐらいならOK（PHコネクターはあの位置なら入る）。  
+・表面実装パーツの高さは4mm以下ぐらいならOK（PHコネクターはまぁ…この位置なら…）。  
 ・パーツの実装は工場（？）に任せる気マンマン。  
 ・BMPを使った設計のガイド：https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/design_guide  
 ・よりフレンドリーなBMPの入門記事：https://salicylic-acid3.hatenablog.com/entry/BMP-Introduction  
