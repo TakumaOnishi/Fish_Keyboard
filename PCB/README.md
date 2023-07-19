@@ -63,8 +63,9 @@ BLE Micro Pro（以下BMP）のクローン基盤。1.6mm厚を想定。
 ・よりフレンドリーなBMPの入門記事：https://salicylic-acid3.hatenablog.com/entry/BMP-Introduction  
 
 ## 取り付けイメージ  
-<img width="1146" alt="Screenshot 2023-07-20 at 04 00 43" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/0910fb9d-f539-488b-8d93-89168712804d">
-<img width="851" alt="Screenshot 2023-07-20 at 03 59 29" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/95314de7-a9c7-4fa3-b6da-47e6e09e978c">  
-<img width="1181" alt="Screenshot 2023-07-20 at 04 03 24" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/b6a824fd-3032-4148-ab1c-5baaab7aebae">
-<img width="1052" alt="Screenshot 2023-07-20 at 04 04 25" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/94e8150a-f0fd-459f-a773-2923a59c8962">
+<img width="1146" alt="Screenshot 2023-07-20 at 04 00 43" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/0910fb9d-f539-488b-8d93-89168712804d">  
+すべて左手機。ボディのモデルが干渉してる部分はこれから直す。  
+<img width="851" alt="Screenshot 2023-07-20 at 03 59 29" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/95314de7-a9c7-4fa3-b6da-47e6e09e978c">   
+<img width="1181" alt="Screenshot 2023-07-20 at 04 03 24" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/b6a824fd-3032-4148-ab1c-5baaab7aebae">  
+<img width="1052" alt="Screenshot 2023-07-20 at 04 04 25" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/94e8150a-f0fd-459f-a773-2923a59c8962">  
 
