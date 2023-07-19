@@ -46,7 +46,7 @@ BLE Micro Pro（以下BMP）のクローン基盤。1.6mm厚を想定。
 
 #### その他（BL654など必要な部品）  
 ・BMPをまるパクりする。  
-・インジケータLED（赤色）をつけたい！：https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/design_guide?id=%e3%82%a4%e3%83%b3%e3%82%b8%e3%82%b1%e3%83%bc%e3%82%bfled  
+・インジケータLED（赤色）をつけたい！ピンはちょうど１つ余ってるはず：https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/design_guide?id=%e3%82%a4%e3%83%b3%e3%82%b8%e3%82%b1%e3%83%bc%e3%82%bfled  
   
 ### 回路  
 ・BMPの回路図：https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/schematic.pdf  
