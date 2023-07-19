@@ -27,17 +27,17 @@
 BLE Micro Pro（以下BMP）のクローン基盤。1.6mm厚を想定。  
   
 ### 実装する部品  
-#### FPCコネクター  
+#### FPCコネクター（右上）  
 ・スイッチ基盤から入力を取る。  
 ・製品例（前述の通り）：https://www.hirose.com/product/series/FH12 0.5mmピッチの17極  
 ・場所はずらせない。  
 
-#### PHコネクター（２芯）
+#### PHコネクター2P（右下）
 ・バッテリー（https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4YZL ）から電源を取る。  
 ・製品例：https://akizukidenshi.com/catalog/g/gC-12633/  
 ・横向きタイプを想定。スルーホール実装が望ましい。場所はずらせるかも。  
 
-#### USB-Cコネクター  
+#### USB-Cコネクター（左）  
 ・充電、ファームウェア書き換え、有線使用時にPCと繋ぐ。  
 ・製品例：https://www.jae.com/connector-special/dx07_usb_type-c/  
 ・オンボードタイプを想定。こちらもスルーホール実装が望ましい。  
