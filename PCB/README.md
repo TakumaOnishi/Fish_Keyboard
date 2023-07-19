@@ -34,7 +34,7 @@ BLE Micro Pro（以下BMP）のクローン基盤。
 
 #### PHコネクター（２芯・横向き）
 ・バッテリー（https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4YZL ）から電源を取る。  
-・製品例：https://nuphy.com/collections/switches/products/nuphy-daisy-l48-switches  
+・製品例：https://akizukidenshi.com/catalog/g/gC-12633/  
 ・スルーホール実装が望ましい。場所はずらせるかも。  
 
 #### USB-Cコネクター  
