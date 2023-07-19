@@ -32,15 +32,15 @@ BLE Micro Pro（以下BMP）のクローン基盤。
 ・製品例（前述の通り）：https://www.hirose.com/product/series/FH12 0.5mmピッチの17極  
 ・場所はずらせない。  
 
-#### PHコネクター（２芯・横向き）
+#### PHコネクター（２芯）
 ・バッテリー（https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4YZL ）から電源を取る。  
 ・製品例：https://akizukidenshi.com/catalog/g/gC-12633/  
-・スルーホール実装が望ましい。場所はずらせるかも。  
+・横向きタイプを想定。スルーホール実装が望ましい。場所はずらせるかも。  
 
 #### USB-Cコネクター  
 ・充電、ファームウェア書き換え、有線使用時にPCと繋ぐ。  
 ・製品例：https://www.jae.com/connector-special/dx07_usb_type-c/  
-・オンボードの24芯を想定（よくわかってない）。こちらもスルーホール実装が望ましい。  
+・オンボードタイプを想定。こちらもスルーホール実装が望ましい。  
 ・場所は上下にはずらせない。基盤の外に1.0〜1.7mm飛び出していて欲しい。  
 ・基盤の右端から1.7mmの壁があってピッタリ奥まで挿さるとベストだが、とりあえず奥まで挿さればOK。  
 
