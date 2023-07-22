@@ -30,7 +30,7 @@
 
 
 ## マイコン基板（pcb_outline）  
-<img width="1037" alt="Screenshot 2023-07-19 at 20 21 50" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/63464950-c794-4cb4-9443-5ef591d48814">  
+<img width="739" alt="Untitled1578_20230723064921" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/ee1e1ed0-b53b-4e1e-aeab-df96eb23ce6e">  
   
 BLE Micro Pro（以下BMP）のクローン基板。1.6mm厚を想定。  
   
@@ -62,15 +62,15 @@ BLE Micro Pro（以下BMP）のクローン基板。1.6mm厚を想定。
   
 ### 備考  
 ・左右対称で２通り必要…。  
-・BMPのファームウェアにスリープ機能が搭載されているので、電源スイッチは実装しないことにした。
+・電源スイッチはCF-LD-1DC4-AW2（https://www.nidec-components.com/j/catalog/switch/cf-ld.pdf ）。頭側に倒すとON、尻尾側に倒すとOFFがいい
 ・組み立て時は裏返して（表面実装パーツがキースイッチ側を向くように）おさかなの頭にセットする。裏面には突起NG。  
-・曲線部分のフチから1.3mmは突起NG（ボディに置く部分なので）。  
-・表面実装パーツの高さは4mm以下ぐらいならOK（PHコネクターはまぁ…この位置なら…）。  
-・パーツの実装は工場（？）に任せる気マンマン。  
+・表面実装パーツの高さは4mm以下ぐらいならOK（PHコネクターは高いから変な位置になった）。  
+・表面実装は業者に任せる気マンマン。  
 ・BMPを使った設計のガイド：https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/design_guide  
 ・よりフレンドリーなBMPの入門記事：https://salicylic-acid3.hatenablog.com/entry/BMP-Introduction  
-
+  
 ## 取り付けイメージ  
+電源スイッチ追加前のやつなので参考程度に  
 <img width="1146" alt="Screenshot 2023-07-20 at 04 00 43" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/0910fb9d-f539-488b-8d93-89168712804d">  
 すべて左手機。ボディのモデルが干渉してる部分はこれから直す。  
 <img width="851" alt="Screenshot 2023-07-20 at 03 59 29" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/95314de7-a9c7-4fa3-b6da-47e6e09e978c">   
