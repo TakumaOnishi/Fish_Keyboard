@@ -47,7 +47,7 @@ BLE Micro Pro（以下BMP）のクローン基板。1.6mm厚。
 ・場所はずらせない。   
 #### USB-Cコネクター（左）  
 ・充電、ファームウェア書き換え、有線使用時にPCと繋ぐ。  
-・製品例：[https://www.jae.com/connector-special/dx07_usb_type-c/  ](https://www.jae.com/connectors/series/detail/product/id=91780)
+・製品例：[https://www.jae.com/connector-special/dx07_usb_type-c/  ](https://www.jae.com/connectors/series/detail/product/id=91780)  
 ・オンボードタイプを想定。こちらもスルーホール実装が望ましい。  
 ・場所は上下にはずらせない。基板の外に1.0mm程度飛び出していてほしい。  
 ・基板の右端から1.7mmの壁があっても奥まで挿さるように浅いレセプタクルにする。  
