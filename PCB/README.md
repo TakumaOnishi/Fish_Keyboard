@@ -9,7 +9,7 @@
 ・データシート：https://cdn.shopify.com/s/files/1/0268/7297/1373/files/gateron-brown-spec-sheet.pdf?v=1657696307  
   
 #### FPCコネクター  
-・製品例：https://www.hirose.com/product/series/FH12  
+・製品：[https://www.hirose.com/product/series/FH12  ](https://www.hirose.com/ja/product/p/CL0586-0553-7-55)  
 ・0.5mmピッチの18極を想定し、挿入端部の幅は9.57mm。  
   
 ### 回路  
@@ -43,7 +43,7 @@ BLE Micro Pro（以下BMP）のクローン基板。1.6mm厚。
 ・横向きタイプを想定。スルーホール実装が望ましい。場所はずらせるかも。 
 #### FPCコネクター（右下）  
 ・スイッチ基板から入力を取る。  
-・製品例（前述の通り）：https://www.hirose.com/product/series/FH12 0.5mmピッチの18極  
+・製品：[https://www.hirose.com/product/series/FH12](https://www.hirose.com/ja/product/p/CL0586-0553-7-55) 0.5mmピッチの18極  
 ・場所はずらせない。   
 #### USB-Cコネクター（左）  
 ・充電、ファームウェア書き換え、有線使用時にPCと繋ぐ。  
