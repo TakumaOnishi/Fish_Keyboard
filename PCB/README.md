@@ -29,7 +29,7 @@
 
 
 ## マイコン基板（pcb_outline）  
-<img width="969" alt="Screenshot 2023-08-11 at 15 46 34" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/8072c386-7958-4710-9100-9a9b7f97cccf">  
+<img width="901" alt="Screenshot 2023-08-11 at 15 47 32" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/8387a141-28b0-47f9-b817-de80e4a426e2">  
 
 BLE Micro Pro（以下BMP）のクローン基板。1.6mm厚。  
   
