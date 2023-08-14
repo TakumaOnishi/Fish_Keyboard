@@ -71,10 +71,7 @@ BLE Micro Pro（以下BMP）のクローン基板。1.6mm厚。
 ・よりフレンドリーなBMPの入門記事：https://salicylic-acid3.hatenablog.com/entry/BMP-Introduction  
   
 ## 取り付けイメージ  
-電源スイッチ追加前のやつなので参考程度に  
-<img width="1146" alt="Screenshot 2023-07-20 at 04 00 43" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/0910fb9d-f539-488b-8d93-89168712804d">  
-すべて左手機。ボディのモデルが干渉してる部分はこれから直す。  
-<img width="851" alt="Screenshot 2023-07-20 at 03 59 29" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/95314de7-a9c7-4fa3-b6da-47e6e09e978c">   
-<img width="1181" alt="Screenshot 2023-07-20 at 04 03 24" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/b6a824fd-3032-4148-ab1c-5baaab7aebae">  
-<img width="1052" alt="Screenshot 2023-07-20 at 04 04 25" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/94e8150a-f0fd-459f-a773-2923a59c8962">  
-
+<img width="1220" alt="Screenshot 2023-08-14 at 18 43 50" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/949306a0-f7c4-40ef-88f7-af72ec842e45">  
+<img width="1110" alt="Screenshot 2023-08-14 at 18 44 39" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/a10e6e37-c957-4066-9822-542b284540cc">  
+<img width="940" alt="Screenshot 2023-08-14 at 18 45 49" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/23a7fef1-3cb1-4de2-9138-29a119d9abe6">  
+<img width="1238" alt="Screenshot 2023-08-14 at 18 46 32" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/cb671bd9-9682-41a4-a5a7-f4c100defc43">  
