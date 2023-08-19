@@ -37,7 +37,7 @@ BLE Micro Pro（以下BMP）のクローン基板。1.6mm厚。
 #### ロッカースイッチ（右上）   
 ・バッテリーとマイコンの間で電源を入／切する。
 ・CF-LD-1DC4-AW2：https://www.nidec-components.com/j/catalog/switch/cf-ld.pdf  
-・基板の外に1.0mmほど飛び出していてほしい。  
+・箱が基板の外に1.0mmほど飛び出していてほしい。  
 ・頭側に倒したらon、尻尾側に倒したらoff。  
 #### PHコネクター2P（右中央）  
 ・バッテリー（https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4YZL ）から電源を取る。  
