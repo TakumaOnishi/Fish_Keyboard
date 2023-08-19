@@ -3,7 +3,7 @@
   
 キースイッチに張り巡らせるフレキシブル基板。
   
-### 接続する部品
+### （組み立て時に）実装する部品
 #### キースイッチ * 16  
 ・製品：https://nuphy.com/collections/switches/products/nuphy-daisy-l48-switches  
 ・データシート：https://cdn.shopify.com/s/files/1/0268/7297/1373/files/gateron-brown-spec-sheet.pdf?v=1657696307  
