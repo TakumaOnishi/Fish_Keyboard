@@ -2,9 +2,7 @@
 ![F62F527A-DFD8-4B4F-93E8-1B1EBF115952_1_105_c](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/8817a011-7b03-4b77-99a9-8aa4c733a862)   
 ![BAB9DBBC-AC86-4B0E-95D4-BDB22A608328_1_105_c](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/be80290b-0eeb-48db-98b2-b7105fdbc2c0)   
 ・有線版：https://x.com/IlllIlllIlIlIll/status/1659551056890675202?s=20   
-・この左右分割型無線キーボードのシールドPCBを設計してほしいです。    
-・左右２枚のgerberデータを納品してください。   
-・11/4の展示会にプロトタイプを間に合わせたいです。金に糸目はつけません。   
+・この左右分割型無線キーボードのシールドPCB（左右２枚のgerberデータ）を設計したいです。    
 　　　
 ### 外形<br>
 <img alt="outline" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/c85b998c-a25f-47c4-ae29-61d5c36a30b8"><br>
