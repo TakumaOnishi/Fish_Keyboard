@@ -26,7 +26,7 @@
 ### 接続する部品   
 #### Seeed Xiao BLE（マイコンボード）* 左右各１枚   
 ・https://www.switch-science.com/products/8145  
-・リボンケーブルでピンD3〜D10を接続します。   
+・リボンケーブルでピンD3〜D10を接続します。2.54mmピッチの4ピン * 2列のスルーホールであれば位置や角度は厳密でなくてよいです。   
 #### Nuphy Low-Profile Switches（キースイッチ）* 左右各16個   
 ・https://cdn.shopify.com/s/files/1/0268/7297/1373/files/gateron-brown-spec-sheet.pdf?v=1657696307   
 ・２足に電流の指向性はありません。      
