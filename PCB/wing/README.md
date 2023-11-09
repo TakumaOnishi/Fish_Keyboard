@@ -7,7 +7,7 @@
 ![Screenshot 2023-11-09 at 18 26 21](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/83434b8f-7f68-427b-b90e-ec0b530137a4)  
   
 ## 外形と回路図  
-![Untitled1618_20231109173750](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/a48fe485-9c56-49c7-994d-098848b21f99)  
+![Untitled1618](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/6453acae-083b-4925-aa84-6ae3fbcba595)  
 ・単一の基板を左右で裏返して使う。  
 ・上下は対称に見えるが、微妙に非対称（両翼の先端部分の外形）。紛らわしいので判別のためも兼ねて、裏と表にlogo_white.pngのシルクを刷る。  
 ・角丸長方形の穴はボディの柱（Xiao固定用）を通すためのものなので、フチに金属は不要。  
