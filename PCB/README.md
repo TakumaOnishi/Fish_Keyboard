@@ -1,34 +1,46 @@
-## 製品イメージ   
-![F62F527A-DFD8-4B4F-93E8-1B1EBF115952_1_105_c](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/8817a011-7b03-4b77-99a9-8aa4c733a862)   
-![BAB9DBBC-AC86-4B0E-95D4-BDB22A608328_1_105_c](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/be80290b-0eeb-48db-98b2-b7105fdbc2c0)   
-・有線プロト：https://x.com/IlllIlllIlIlIll/status/1659551056890675202?s=20   
-・この左右分割型無線キーボードのシールドPCB（左右２枚のgerberデータ）を設計してほしいです。    
-　　　
-### 外形<br>
-![key_number](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/db228d25-77a4-4980-80c5-c3aa601a28f6)  
-・このディレクトリーにあるDXFファイルが使えそうです。ただしblenderで作ったので曲線がn角形になってしまっています。<br>
-・キースイッチが曲面上に並んでいるため、0.6mm厚の基板で作ってちょっと曲げる予定です。<br>
-・下側の４つの穴もスイッチの足です。基板が届かない親指の２キーを導線で接続します。<br>
-・穴の大きさはすべて内径です。大きな丸穴はキースイッチの出っ張りをはめる穴なので周りに金属は不要です。<br>
-・参考までにleft（組み立て視点では右側）のスイッチ01〜14の丸穴の中心の座標（x, y, deg）を順に示します：<br>
-( -38.35, 3.85, -4° ), ( -19.33, 10.19, -2° ), ( 0, 12.54, 0° ), ( 19.33, 10.19, 2° ),<br>
-( -37.01, -14.47, -4° ), ( -18.69, -8.12, -2° ), ( 0, -5.75, 0° ), ( 18.69, -8.12, 2° ), ( 37.27, -11.05, 4° ), ( 55.59, -14.97, 6° ),<br>
-( -18.04, -26.77, -2° ), ( 0, -24.3, 0° ), ( 18.03, -26.77, 2° ), ( 36.00, -29.13, 4° )<br>
-・画像の位置（無理なら空いているところ）にlogo_white.svgを白のシルクで入れてほしいです。
-   
-### 回路図   
-![fish_circuit](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/0738bc0d-2b4a-406c-a4c7-b5ad4e845f2a)  
-・いわゆるマトリックス式のキーボード回路です。列と行をマイコンのピンに割り当てて、複数同時押しが一意に定まるようにダイオードを挟みます。  
-・ダイオードはおもて面に同じ向きで実装したいです。基板の曲がりそうなところは避けるのが望ましいです（あまり気にしなくて大丈夫です）。   
-・right（組み立て視点では左側）も同様に、左右対称に配線します。   
-・指定の8ピンを使っていれば、どの列・行をどのピンに割り当てるかは（ファームウェア側で設定できるため）配線の都合で変えて構いません。左右で割り当てが違っても構いません。   
-　　　
-### 接続する部品   
-#### Seeed Xiao BLE（マイコンボード）* 左右各１枚   
-・https://www.switch-science.com/products/8145  
-・柔らかいリボンケーブルでピンD3〜D10を接続します。2.54mmピッチの4ピン * 2列のスルーホールであれば位置や角度は厳密でなくてよいです。   
-#### Nuphy Low-Profile Switches（キースイッチ）* 左右各16個   
-・https://cdn.shopify.com/s/files/1/0268/7297/1373/files/gateron-brown-spec-sheet.pdf?v=1657696307   
-・２足に電流の指向性はありません。 
-#### ダイオード * 左右各16個   
-・https://shop.yushakobo.jp/products/a0800di-02-100   
+マイコンの充電およびリセットの回路を安全に架線しながら、各部品を固定するための基板。  
+  
+## イメージ  
+・右手側（表から）  
+![Screenshot 2023-11-09 at 18 26 47](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/e8acdb48-abfe-4d1b-93a5-4f6e2da6d501)  
+・右手側（裏から）  
+![Screenshot 2023-11-09 at 18 26 21](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/83434b8f-7f68-427b-b90e-ec0b530137a4)  
+  
+## 外形と回路図  
+![Untitled1618](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/6453acae-083b-4925-aa84-6ae3fbcba595)  
+・単一の基板を左右で裏返して使う。  
+・上下は対称に見えるが、微妙に非対称（両翼の先端部分の外形）。紛らわしいので判別のためも兼ねて、裏と表にlogo_white.pngのシルクを刷る。  
+・角丸長方形の穴はボディの柱（Xiao固定用）を通すためのものなので、フチに金属は不要。  
+・外形のDXFは各スルーホールの外側もしくは内側の径を指定している（わかりにくくてすみません）：  
+・プッシュ／トグルスイッチのスルーホールは*内径*0.8mm。  
+・PHコネクターポストのスルーホールは*内径*1.0mm。  
+・XiaoのGND/RSTランドのスルーホールは*外径*約1.22mm。  
+・XiaoのBat+/-ランドは約1.27*約2.28mmの長方形の中に長穴。正円でも可だが、接着面はできるだけ増やしたいので。  
+  
+## 実装する部品  
+・すべて手はんだ前提。  
+  
+### プッシュスイッチ（GB-25AV）  
+![Screenshot 2023-11-09 at 17 39 41](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/e7ff294e-0e77-4ea7-9723-88ee753eb577)  
+・製品ページ（データシートPDFあり）：https://www.nkkswitches.co.jp/product/detailed/GB-25AV.html  
+・リセットボタン。Xiao裏のGNDとRSTをつなぐ。  
+・PC-V端子形の２極双投のもの。  
+  
+### トグルスイッチ（G-22AV）  
+<img width="1005" alt="Screenshot 2023-11-09 at 17 46 25" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/393c301d-4f19-4c50-bc32-aca985de820c">  
+・製品ページ（データシートPDFあり）：https://www.nkkswitches.co.jp/product/detailed/G-22AV.html  
+・電源スイッチ。バッテリーとXiao裏のBat+/-をつなぐ。  
+・PC-V端子形の２極双投のもの。  
+  
+### PHコネクター ベース付ポスト（JSTの標準のタイプ）  
+![Screenshot 2023-11-09 at 17 49 57](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/a5964623-3897-4d22-9848-39c01c0a4e70)  
+・データシート：https://www.jst-mfg.com/product/pdf/jpn/PH.pdf?654bd0c151ce9  
+・バッテリーの端子を嵌合して接続する。  
+・これだけはフットプリントに対称性がないため、基板を左右で裏返して使うのに合わせて+/-が正しくなるような向き；おもて面なら上、裏面なら下にケーブルが出るように実装する。  
+・↑の向きを間違えないよう、F面に上向きの、B面に下向きの輪郭シルクを描く（これ以外の部品シルクは不要）。  
+  
+### バッテリー（DTP502535）  
+・製品ページ：https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4YZL  
+  
+### マイコン（Seeed Xiao nRF52840）  
+・製品ページ：https://www.switch-science.com/products/8145  
