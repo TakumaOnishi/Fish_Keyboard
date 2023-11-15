@@ -8,7 +8,7 @@
 ・充電スイッチおよびリセットボタンをマイコンにつなげるとともに、それらの位置を固定するための基板。  
   
 ## 発注方法  
-[JLCPCB](https://jlcpcb.com/)にアクセスし、`Add gerber file`から発注したい基板のzipをぶちこむ。  
+[JLCPCB](https://jlcpcb.com/)にアクセスし、`Add gerber file`に発注したい基板のzipをぶちこむ。  
 ![Screenshot 2023-11-12 at 17 59 32](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/f9f62589-ed47-4d21-93fc-2d452ecdb66f)  
 規定値から変えるオプションは  
 ・PCB Qty：発注したい枚数  
@@ -17,7 +17,6 @@
 wingの場合はこのまま進んで配送方法を選択して注文完了。  
 leftおよびrightの場合は、さらにPCBA（PCB Assenbly；部品の取り付けサーヴィス）にチェックを入れ、  
 ![Screenshot 2023-11-12 at 18 01 11](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/2d8a31b4-77cb-4b87-9470-e5d11e88037d)  
-・PCB Qty：発注したい枚数と同じ値  
 ・Confirm Parts Placement：Yes  
 とする。  
 Confirmを押して続くウィザードに沿ってそれぞれのCPLおよびBOMファイルをぶちこみ、  
