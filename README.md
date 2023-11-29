@@ -24,7 +24,8 @@
 
 ### キャップをはめる   
 <img width="768" alt="Screenshot 2023-11-29 at 23 02 47" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/3745ce6b-6776-48ba-9033-d939430cdc27">   
-<img width="1019" alt="Screenshot 2023-11-30 at 00 20 50" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/2d9a73d7-51ae-4513-8152-f7c949d4d1e9">   
+<img width="1019" alt="Screenshot 2023-11-30 at 00 20 50" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/2d9a73d7-51ae-4513-8152-f7c949d4d1e9"> 
+   
 基本的に眼力で同定するが、いくつかポイントがある。   
 まず、裏側のステムから出ている溝はすべて下側（手首のほう）を向く。これは特に、小指外（しっぽ）の左右判別に役立つ。   
 また、以下のキャップの組は同じ形であるため区別しない。   
