@@ -9,19 +9,18 @@
   
 ## 発注方法  
 [JLCPCB](https://jlcpcb.com/)にアクセスし、`Add gerber file`に発注したい基板のzipをぶちこむ。  
-![Screenshot 2023-11-12 at 17 59 32](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/f9f62589-ed47-4d21-93fc-2d452ecdb66f)  
+![Screenshot 2024-01-07 at 17 12 22](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/3b44aafb-64f2-4853-a7ff-4a1e95039d5f)  
 規定値から変えるオプションは  
 ・PCB Qty：発注したい枚数  
-・PCB Thickness：leftおよびrightは0.8mm、wingは1.0mm  
-・Surface Finish：LeadFree HASL（環境配慮のため）  
-wingの場合はこのまま進んで配送方法を選択して注文完了。  
+・PCB Thickness：leftおよびrightは0.6mm、wingは0.8mm  
+・Surface Finish：LeadFree HASL（RoHS規定のため）  
+wingの場合はこのまま進み、配送方法を選択してカートに入れる。  
 leftおよびrightの場合は、さらにPCBA（PCB Assenbly；部品の取り付けサーヴィス）にチェックを入れ、  
-![Screenshot 2023-11-12 at 18 01 11](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/2d8a31b4-77cb-4b87-9470-e5d11e88037d)  
+![Screenshot 2024-01-07 at 17 14 08](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/25c45f71-b0fe-4a56-999b-0b0c1b8b26cd)  
 ・Confirm Parts Placement：Yes  
-とする。  
+とする（なぜかダイオードの座標がずれる場合があるため）。  
 Confirmを押して続くウィザードに沿ってそれぞれのCPLおよびBOMファイルをぶちこみ、  
 <img width="1511" alt="Screenshot 2023-11-15 at 15 51 27" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/dccd976c-bd23-4e65-964b-2dbc74e567e4">  
-部品は`1N4148W`で検索し`Basic Parts Only`にチェックを入れて出てくる1N4148WS（SOD-323）を選択する。  
 <img width="1512" alt="Screenshot 2023-11-15 at 15 57 54" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/ac938035-5454-48d8-a1d3-0ef93fc692d2">  
 部品が正しく配置されているのを確認する。  
 <img width="1512" alt="Screenshot 2023-11-13 at 02 46 35" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/46be09d8-5b88-4974-8d3d-54896eff3bca">  
