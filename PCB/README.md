@@ -9,7 +9,7 @@
   
 ## 発注方法  
 詳しくは[JLCPCBの発注方法を解説するよ！／自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/jlcpcb-order)も参照。
----
+***
 [JLCPCB](https://jlcpcb.com/)にアクセスし、`Add gerber file`に発注したい基板のzipをぶちこむ。  
 ![Screenshot 2024-01-07 at 17 12 22](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/3b44aafb-64f2-4853-a7ff-4a1e95039d5f)  
 既定値から変えるオプションは  
