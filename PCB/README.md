@@ -8,6 +8,8 @@
 ・充電スイッチおよびリセットボタンをマイコンにつなげるとともに、それらの位置を固定するための基板。  
   
 ## 発注方法  
+詳しくは[JLCPCBの発注方法を解説するよ！／自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/jlcpcb-order)も参照。
+---
 [JLCPCB](https://jlcpcb.com/)にアクセスし、`Add gerber file`に発注したい基板のzipをぶちこむ。  
 ![Screenshot 2024-01-07 at 17 12 22](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/3b44aafb-64f2-4853-a7ff-4a1e95039d5f)  
 既定値から変えるオプションは  
@@ -30,5 +32,3 @@ leftおよびrightの場合は、さらにPCB Assenbly（部品の取り付け�
 <img width="1512" alt="Screenshot 2023-11-13 at 02 46 35" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/46be09d8-5b88-4974-8d3d-54896eff3bca">  
 注文後しばらくするとParts Placementの確認がくるので承認する。  
 それ以外の確認がメール（英語）で来ることもあるので適宜対応する。  
-
-詳しくは[JLCPCBの発注方法を解説するよ！／自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/jlcpcb-order)も参照。
