@@ -22,7 +22,7 @@ leftおよびrightの場合は、さらにPCB Assenbly（部品の取り付け�
 ![Screenshot 2024-01-07 at 17 14 08](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/25c45f71-b0fe-4a56-999b-0b0c1b8b26cd)  
 ・`Confirm Parts Placement`：`Yes`  
 とする（なぜかダイオードの座標がずれる場合があるため）。  
-`Confirm`を押して続くウィザードに沿って`left/right_CPL.csv`および`left/right_BOM.csv`をぶちこみ、  
+`Confirm`を押して続くウィザードに沿って`left/right_CPL.csv`および`left_right_BOM.csv`をぶちこみ、  
 ![Screenshot 2024-01-07 at 18 05 53](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/99e8eb39-c904-4876-9f2e-335468825839)  
 ダイオードが正しく配置されているのを確認する。  
 ![Screenshot 2024-01-07 at 18 16 49](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/b46e4f86-13d6-4764-8911-fd7f25858ca3)
