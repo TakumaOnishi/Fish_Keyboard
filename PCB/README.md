@@ -24,7 +24,7 @@ leftおよびrightの場合は、さらにPCB Assenbly（部品の取り付け�
 とする（なぜかダイオードの座標がずれる場合があるため）。  
 `Confirm`を押して続くウィザードに沿って`BOM.csv`および`left/right_CPL.csv`をぶちこむ。  
 <img width="1415" alt="Screenshot 2024-01-08 at 00 10 30" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/e7c75bcb-eb1d-4467-a737-4afa057fb738">
-1N4148WSダイオードが選択されていることを確認し（されていなければ検索して選択する）て進み、  
+1N4148WSダイオードが選択されていることを確認（できなければ検索して選択）して進み、  
 ![Screenshot 2024-01-07 at 18 05 53](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/99e8eb39-c904-4876-9f2e-335468825839)  
 ダイオードが正しく配置されているのを確認する。  
 ![Screenshot 2024-01-07 at 18 16 49](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/b46e4f86-13d6-4764-8911-fd7f25858ca3)
