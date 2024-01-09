@@ -30,7 +30,7 @@ leftおよびrightの場合は、さらにPCB Assenbly（部品の取り付け�
 ![Screenshot 2024-01-07 at 18 16 49](https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/b46e4f86-13d6-4764-8911-fd7f25858ca3)
 金額確認画面で`Product Description`を`Keyboard`にし（税関で見られる）、カートに保存する。  
 
-配送および支払い方法を選択して注文を完了する。送料がかさむのでなるべくまとめて注文する。  
+配送および支払い方法を選択して注文を完了する。複数種類をまとめて注文することもできる。  
 <img width="1512" alt="Screenshot 2023-11-13 at 02 46 35" src="https://github.com/TakumaOnishi/Fish_Keyboard/assets/85474111/46be09d8-5b88-4974-8d3d-54896eff3bca">  
 注文後しばらくするとParts Placementの確認がくるので承認する。  
 それ以外の確認がメール（英語）で来ることもあるので適宜対応する。  
